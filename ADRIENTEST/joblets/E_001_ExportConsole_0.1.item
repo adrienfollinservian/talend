@@ -135,6 +135,7 @@
       <elementParameter field="CHECK" name="IGNORE_EMPTY_ROW" value="true"/>
       <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
       <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="TEXT" name="LABEL" value="tFileRowCount_1"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tFileRowCount_1"/>
     </node>
