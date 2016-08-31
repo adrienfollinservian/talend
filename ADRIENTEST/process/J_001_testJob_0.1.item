@@ -211,6 +211,7 @@
   </connection>
   <connection connectorName="FLOW" label="tLog" lineStyle="0" metaname="tLog" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLog" show="false"/>
   </connection>
   <subjob>
