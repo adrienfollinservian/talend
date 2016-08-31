@@ -98,7 +98,7 @@
     <node componentName="tFileProperties" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileProperties_1" show="false"/>
       <elementParameter field="FILE" name="FILENAME" value="&quot;/tmp/myFile.csv&quot;"/>
-      <elementParameter field="CHECK" name="MD5" value="false"/>
+      <elementParameter field="CHECK" name="MD5" value="true"/>
       <elementParameter field="TEXT" name="LABEL" value="tFileProperties_1"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="tFileProperties_1">
@@ -109,6 +109,7 @@
         <column defaultValue="" key="false" length="20" name="size" nullable="true" precision="0" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
         <column defaultValue="" key="false" length="20" name="mtime" nullable="true" precision="0" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
         <column defaultValue="" key="false" length="20" name="mtime_string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="32" name="md5" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       </metadata>
     </node>
     <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64">
