@@ -32,10 +32,18 @@ public class ServianTalendFunction {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-    public static void helloExample(String message) {
-        if (message == null) {
-            message = "World"; //$NON-NLS-1$
+    public static void decomposeXMLLink(routines.system.IPersistableRow link) {
+        if (link != null) {
+        	String export = link.toString();
+        	String[] loop1 = export.split("\\[")[1].split("\\]")[0].split("\\,");
+
+        	for (String s: loop1) {
+        		String[] elements = s.split("\\=");
+        	        System.out.print("\t<"+elements[0]+">");
+        	        System.out.print(elements[1]);
+        			System.out.println("</"+elements[0]+">"); 
+        	}
         }
-        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+
     }
 }
