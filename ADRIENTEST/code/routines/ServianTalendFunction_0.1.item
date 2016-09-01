@@ -32,7 +32,7 @@ public class ServianTalendFunction {
      * 
      * {example} helloExemple("world") # hello world !.
      */
-    public static void decomposeXMLLink(routines.system.IPersistableRow link) {
+    public static String decomposeXMLLink(routines.system.IPersistableRow link) {
         if (link != null) {
         	String export = link.toString();
         	String[] loop1 = export.split("\\[")[1].split("\\]")[0].split("\\,");
