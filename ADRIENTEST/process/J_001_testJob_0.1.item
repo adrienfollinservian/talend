@@ -204,7 +204,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="Class source = Class.forName(&quot;adrientest.j_001_testjob_0_1.J_001_testJob.sourceStruct&quot;);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="Class source = Class.forName(&quot;adrientest.j_001_testjob_0_1.J_001_testJob&quot;);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
