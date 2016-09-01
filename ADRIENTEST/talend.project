@@ -25,6 +25,7 @@
       <relatedItems xmi:id="_r-syv25OEeaCydAWDZAJuQ" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_r-sywG5OEeaCydAWDZAJuQ" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_i-CXgG8fEeaIffvJjfnD0w" id="_QTEGIG8fEeaIffvJjfnD0w" version="Latest" type="joblet"/>
+      <relatedItems xmi:id="_FVLGQHAREeaFkuB8ep-xUg" id="ServianTalendFunction" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_gOPwcG8fEeaIffvJjfnD0w">
       <baseItem xmi:id="_gOPwcW8fEeaIffvJjfnD0w" id="_QTEGIG8fEeaIffvJjfnD0w" version="0.1" type="joblet"/>

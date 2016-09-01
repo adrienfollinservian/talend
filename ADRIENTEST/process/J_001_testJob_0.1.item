@@ -109,6 +109,7 @@
     <routinesParameter id="_LGSE0G5GEeaCydAWDZAJuQ" name="TalendDataGenerator"/>
     <routinesParameter id="_LGTS8G5GEeaCydAWDZAJuQ" name="TalendDate"/>
     <routinesParameter id="_LGVIIG5GEeaCydAWDZAJuQ" name="TalendString"/>
+    <routinesParameter id="_3PEggHALEeaFkuB8ep-xUg" name="ServianTalendFunction"/>
   </parameters>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
