@@ -162,7 +162,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//System.out.println(input_row.dynamic);&#xA;&#xA;int ncount = input_row.dynamic.getColumnCount();&#xA;&#xA;System.out.println(&quot;Count:&quot;+ncount);&#xA;&#xA;for(int i=0;i&lt;ncount;i++)&#xA;{&#xA;&#x9;DynamicMetadata a = input_row.dynamic.getColumnMetadata(0);&#xA;&#x9;System.out.println(a.getRefFieldName() + &quot; - &quot;+a.getType()+&quot;(&quot;+a.getLength()+&quot;)&quot;);&#xA;}&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//System.out.println(input_row.dynamic);&#xA;&#xA;int ncount = input_row.dynamic.getColumnCount();&#xA;&#xA;System.out.println(&quot;Count:&quot;+ncount);&#xA;&#xA;for(int i=0;i&lt;ncount;i++)&#xA;{&#xA;&#x9;DynamicMetadata a = input_row.dynamic.getColumnMetadata(0);&#xA;&#x9;System.out.println(a.getName() + &quot; - &quot;+a.getType()+&quot;(&quot;+a.getLength()+&quot;)&quot;);&#xA;}&#xA;&#xA;&#xA;&#xA;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
