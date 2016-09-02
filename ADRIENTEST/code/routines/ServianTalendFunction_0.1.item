@@ -45,18 +45,19 @@ public class ServianTalendFunction {
         			System.out.println("</"+elements[0]+">"); 
         	}
         }
+    }//end of function decomposeXMLLinkElements
     	
-    	public static void decomposeXMLLink(routines.system.IPersistableRow link) {
+    public static void decomposeXMLLink(routines.system.IPersistableRow link) {
 
-        	if (link != null) {
-            	String export = link.toString();
-            	String[] loop1 = export.split("\\[")[1].split("\\]")[0].split("\\,");
+    	if (link != null) {
+        	String export = link.toString();
+        	String[] loop1 = export.split("\\[")[1].split("\\]")[0].split("\\,");
 
-            	for (String s: loop1) {
-            		String[] elements = s.split("\\=");
-            	        System.out.print("\t<"+elements[0]+"/>");
-            	}
-            }
-
-    }
-}
+        	for (String s: loop1) {
+        		String[] elements = s.split("\\=");
+        	        System.out.print("\t<"+elements[0]+"/>");
+        	}
+        }
+    }//end of function decomposeXMLLink
+    
+}//end of class
