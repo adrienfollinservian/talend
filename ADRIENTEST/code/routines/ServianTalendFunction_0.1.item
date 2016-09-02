@@ -55,7 +55,7 @@ public class ServianTalendFunction {
 
         	for (String s: loop1) {
         		String[] elements = s.split("\\=");
-        	        System.out.println("\t\t<"+elements[0]+"/>");
+        	        System.out.println("\t\t< fieldName='"+elements[0]+"' length=''/>");
         	}
         }
     }//end of function decomposeXMLLink
