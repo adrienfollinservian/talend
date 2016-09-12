@@ -5,7 +5,7 @@
     <contextParameter comment="" name="MapRDemo_NameNodeUri" prompt="MapRDemo_NameNodeUri?" promptNeeded="false" repositoryContextId="_gpUdIHiGEeabY77_zCA2hw" type="id_String" value="maprfs:///192.168.66.75:7222"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M Djava.library.path=/opt/mapr/lib " show="false"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Djava.library.path=/opt/mapr/lib -Xms256M -Xmx1024M " show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
