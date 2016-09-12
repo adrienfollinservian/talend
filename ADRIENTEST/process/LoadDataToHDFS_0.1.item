@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="MapRDemo_Group" prompt="MapRDemo_Group?" promptNeeded="false" repositoryContextId="_gpUdIHiGEeabY77_zCA2hw" type="id_String" value="mapr"/>
-    <contextParameter comment="" name="MapRDemo_NameNodeUri" prompt="MapRDemo_NameNodeUri?" promptNeeded="false" repositoryContextId="_gpUdIHiGEeabY77_zCA2hw" type="id_String" value="maprfs:///192.168.66.75:7222"/>
+    <contextParameter comment="" name="MapRDemo_NameNodeUri" prompt="MapRDemo_NameNodeUri?" promptNeeded="false" repositoryContextId="_gpUdIHiGEeabY77_zCA2hw" type="id_String" value="maprfs:///192.168.66.102:7222"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Djava.library.path=/opt/mapr/lib -Xms256M -Xmx1024M " show="false"/>
