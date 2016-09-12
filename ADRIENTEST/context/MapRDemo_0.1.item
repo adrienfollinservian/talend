@@ -7,4 +7,5 @@
   <contextParameter xmi:id="_gpkUxXiGEeabY77_zCA2hw" comment="" name="MapRDemo_Group" prompt="MapRDemo_Group?" promptNeeded="false" type="id_String" value="mapr"/>
   <contextParameter xmi:id="_gpkUxniGEeabY77_zCA2hw" comment="" name="MapRDemo_NameNodeUri" prompt="MapRDemo_NameNodeUri?" promptNeeded="false" type="id_String" value="maprfs:///192.168.66.102:7222"/>
   <contextParameter xmi:id="_gpkUx3iGEeabY77_zCA2hw" comment="" name="MapRDemo_JobHistory" prompt="MapRDemo_JobHistory?" promptNeeded="false" type="id_String" value="192.168.66.75:10020"/>
+  <contextParameter xmi:id="_eqy6IHi2Eeab98esfXz9Dg" comment="" name="MapRDemo_NameNodeUri_1" prompt="MapRDemo_NameNodeUri_1?" promptNeeded="false" type="id_String" value="maprfs:///192.168.66.102:7222"/>
 </talendfile:ContextType>
