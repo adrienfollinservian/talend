@@ -116,7 +116,6 @@
   </parameters>
   <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="PROTO" value="http"/>
     <elementParameter field="CHECK" name="POST" value="false"/>
     <elementParameter field="TEXT" name="URI" value="&quot;http://data.gov.au/dataset/5c7fa69b-b0e9-4553-b8df-2a022dd2e982/resource/3ea0631b-7715-49fa-9bba-64717e22ae1b/download/austenderallcnsupto31dec15.zip&quot;"/>
@@ -210,6 +209,9 @@
     <elementParameter field="CHECK" name="PRINTOUT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileFetch_1" offsetLabelX="0" offsetLabelY="0" source="tFileFetch_1" target="tFileUnarchive_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileUnarchive_1" offsetLabelX="0" offsetLabelY="0" source="tFileUnarchive_1" target="tHDFSPut_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
