@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="_ycBKMHlsEea6bKgdg__sxQ" relativeHadoopClusterId="_O2li0HlsEea6bKgdg__sxQ" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
+<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="_ycBKMHlsEea6bKgdg__sxQ" name="HortonWorks_HDFS" label="HortonWorks_HDFS" relativeHadoopClusterId="_O2li0HlsEea6bKgdg__sxQ" userName="maria_dev" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
