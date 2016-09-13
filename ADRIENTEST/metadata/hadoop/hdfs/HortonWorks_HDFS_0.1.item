@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendHDFS:HDFSConnection xmi:id="_ycBKMHlsEea6bKgdg__sxQ" name="HortonWorks_HDFS" label="HortonWorks_HDFS" dataPackage="_53-eEHlvEea6bKgdg__sxQ" relativeHadoopClusterId="_O2li0HlsEea6bKgdg__sxQ" userName="maria_dev" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;,&quot;" useHeader="true" headerValue="1" firstLineCaption="true"/>
   <orgomg.cwm.resource.relational:Schema xmi:id="_53-eEHlvEea6bKgdg__sxQ" name="HDFS" dataManager="_ycBKMHlsEea6bKgdg__sxQ">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_HRr0sHlxEea6bKgdg__sxQ" name="AusTender___All_CNs_upto_31Dec2015" id="_G5uAoHlxEea6bKgdg__sxQ" label="AusTender___All_CNs_upto_31Dec2015">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_HRr0sHlxEea6bKgdg__sxQ" name="AusTender___All_CNs_upto_31Dec2015" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_G5uAoHlxEea6bKgdg__sxQ" label="AusTender___All_CNs_upto_31Dec2015">
       <taggedValue xmi:id="_HRr0sXlxEea6bKgdg__sxQ" tag="Comment" value=""/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K_xQAHlxEea6bKgdg__sxQ" label="Column0" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K_xQAXlxEea6bKgdg__sxQ" label="Column1" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
@@ -44,7 +44,7 @@
       <additionalProperties xmi:id="_HRsbzHlxEea6bKgdg__sxQ" key="HDFS_PATH" value="/user/maria_dev/AusTender - All CNs upto 31Dec2015.csv"/>
       <additionalProperties xmi:id="_HRsbzXlxEea6bKgdg__sxQ" key="HDFS_FILE_TYPE" value="TEXT"/>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_HhLpQHlxEea6bKgdg__sxQ" name="Pearson" id="_HRsbznlxEea6bKgdg__sxQ" label="Pearson">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_HhLpQHlxEea6bKgdg__sxQ" name="Pearson" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_HRsbznlxEea6bKgdg__sxQ" label="Pearson">
       <taggedValue xmi:id="_HhLpQXlxEea6bKgdg__sxQ" tag="Comment" value=""/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhLpQnlxEea6bKgdg__sxQ" label="Column0" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HhLpQ3lxEea6bKgdg__sxQ" label="Column1" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
