@@ -4,7 +4,7 @@
     <parameters xmi:id="_S5byYXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
     <parameters xmi:id="_S5byYnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
     <parameters xmi:id="_S5byY3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
-    <parameters xmi:id="_S5byZHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="sandbox.hortonworks.com:8030"/>
+    <parameters xmi:id="_S5byZHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="192.168.66.67:8030"/>
     <parameters xmi:id="_S5byZXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
     <parameters xmi:id="_S5byZnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://192.168.66.67:8020"/>
     <parameters xmi:id="_S5byZ3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_KRB" value="false"/>
@@ -15,8 +15,8 @@
     <parameters xmi:id="_S5bybHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_S5bybXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_S5bybnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
-    <parameters xmi:id="_S5byb3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="sandbox.hortonworks.com:8050"/>
-    <parameters xmi:id="_S5bycHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="sandbox.hortonworks.com:10020"/>
+    <parameters xmi:id="_S5byb3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="192.168.66.67:8050"/>
+    <parameters xmi:id="_S5bycHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="192.168.66.67:10020"/>
     <parameters xmi:id="_S5bycXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
     <parameters xmi:id="_S5bycnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
     <parameters xmi:id="_S5byc3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_SERVER" value="192.168.66.67"/>
