@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="_ycBKMHlsEea6bKgdg__sxQ" name="HortonWorks_HDFS" label="HortonWorks_HDFS" relativeHadoopClusterId="_O2li0HlsEea6bKgdg__sxQ" userName="maria_dev" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendHDFS:HDFSConnection xmi:id="_ycBKMHlsEea6bKgdg__sxQ" name="HortonWorks_HDFS" label="HortonWorks_HDFS" dataPackage="_53-eEHlvEea6bKgdg__sxQ" relativeHadoopClusterId="_O2li0HlsEea6bKgdg__sxQ" userName="maria_dev" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_53-eEHlvEea6bKgdg__sxQ" name="HDFS" dataManager="_ycBKMHlsEea6bKgdg__sxQ">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_54IPEHlvEea6bKgdg__sxQ" name="AusTender___All_CNs_upto_31Dec2015" id="_8uGMEHluEea6bKgdg__sxQ" label="AusTender___All_CNs_upto_31Dec2015">
+      <taggedValue xmi:id="_54OVsHlvEea6bKgdg__sxQ" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_54O8wHlvEea6bKgdg__sxQ" label="Column0" length="528" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_54Pj0HlvEea6bKgdg__sxQ" label="Column1" length="259" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_54Pj0XlvEea6bKgdg__sxQ" label="Column2" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_54Pj0nlvEea6bKgdg__sxQ" key="HDFS_PATH" value="/user/maria_dev/AusTender - All CNs upto 31Dec2015.csv"/>
+      <additionalProperties xmi:id="_54Pj03lvEea6bKgdg__sxQ" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
