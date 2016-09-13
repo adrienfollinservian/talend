@@ -25,6 +25,7 @@
     <parameters xmi:id="_ycE0pnlsEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_ycE0p3lsEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_ycE0qHlsEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_BMNZUHlzEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_ycE0qXlsEea6bKgdg__sxQ" name="HBase" dataManager="_ycE0kHlsEea6bKgdg__sxQ"/>
 </xmi:XMI>
