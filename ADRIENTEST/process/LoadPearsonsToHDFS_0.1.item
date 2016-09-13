@@ -189,7 +189,7 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
       <elementValue elementRef="PROPERTY" value="&quot;mapreduce.application.framework.path&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;/hdp/apps/2.4.0.0-169/mapreduce/mapreduce.tar.gz#mr-framework&quot;"/>
       <elementValue elementRef="BUILDIN" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
