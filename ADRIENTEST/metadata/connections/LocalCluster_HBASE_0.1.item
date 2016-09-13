@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_S5byYHlaEea6bKgdg__sxQ" dataPackage="_S5byeXlaEea6bKgdg__sxQ" DatabaseType="HBase" Port="2181" Username="" ServerName="sandbox.hortonworks.com" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_S5byYXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_S5byYnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_S5byY3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_S5byZHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="sandbox.hortonworks.com:8030"/>
+    <parameters xmi:id="_S5byZXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_S5byZnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://sandbox.hortonworks.com:8020"/>
+    <parameters xmi:id="_S5byZ3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_S5byaHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_S5byaXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_S5byanlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USERNAME" value=""/>
+    <parameters xmi:id="_S5bya3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_Efa_4HlaEea6bKgdg__sxQ"/>
+    <parameters xmi:id="_S5bybHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S5bybXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S5bybnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_S5byb3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="sandbox.hortonworks.com:8050"/>
+    <parameters xmi:id="_S5bycHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="sandbox.hortonworks.com:10020"/>
+    <parameters xmi:id="_S5bycXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_S5bycnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_S5byc3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_SERVER" value="sandbox.hortonworks.com"/>
+    <parameters xmi:id="_S5bydHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_S5bydXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_S5bydnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_S5byd3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_S5byeHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_S5byeXlaEea6bKgdg__sxQ" name="HBase" dataManager="_S5byYHlaEea6bKgdg__sxQ"/>
+</xmi:XMI>
