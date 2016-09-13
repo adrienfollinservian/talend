@@ -3,8 +3,8 @@
   <parameters xmi:id="_S4_GcHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
   <parameters xmi:id="_S4_GcXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="sandbox.hortonworks.com:8030"/>
   <parameters xmi:id="_S4_GcnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
-  <parameters xmi:id="_S4_Gc3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://sandbox.hortonworks.com:8020"/>
-  <parameters xmi:id="_S4_GdHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USERNAME" value=""/>
+  <parameters xmi:id="_S4_Gc3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://192.168.66.67:8020"/>
+  <parameters xmi:id="_S4_GdHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USERNAME" value="maria_dev"/>
   <parameters xmi:id="_S4_GdXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_Efa_4HlaEea6bKgdg__sxQ"/>
   <parameters xmi:id="_S4_GdnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_S4_Gd3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
@@ -12,7 +12,7 @@
   <parameters xmi:id="_S4_GeXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="sandbox.hortonworks.com:10020"/>
   <parameters xmi:id="_S4_GenlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
   <parameters xmi:id="_S4_Ge3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-  <parameters xmi:id="_S4_GfHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_SERVER" value="sandbox.hortonworks.com"/>
+  <parameters xmi:id="_S4_GfHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_SERVER" value="192.168.66.67"/>
   <parameters xmi:id="_S4_GfXlaEea6bKgdg__sxQ" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
   <parameters xmi:id="_S4_GfnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
   <parameters xmi:id="_S4_Gf3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
@@ -28,4 +28,5 @@
   <parameters xmi:id="_S4_GiXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
   <parameters xmi:id="_S4_GinlaEea6bKgdg__sxQ" key="HIVE_SERVER_VERSION" value="HIVE2"/>
   <parameters xmi:id="_S4_Gi3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+  <parameters xmi:id="_OpDPYHlnEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
 </TalendMetadata:DatabaseConnection>
