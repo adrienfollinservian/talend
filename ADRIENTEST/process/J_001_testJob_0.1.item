@@ -163,7 +163,7 @@
         <mapperTableEntries name="rowId" expression="Numeric.sequence(&quot;s1&quot;,1,1)  " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Name" expression="source.firstName +&quot; &quot;+ source.lastName  " type="id_String" nullable="true"/>
         <mapperTableEntries name="makeUp" expression="TalendDataGenerator.getUsStreet()  " type="id_String" nullable="true"/>
-        <mapperTableEntries name="formula" expression="&quot;=A&quot;+Var.rowNum+&quot;&amp;B&quot;+Var.rowNUm " type="id_String" nullable="true"/>
+        <mapperTableEntries name="formula" expression="&quot;=A&quot;+Var.rowNum+&quot;&amp;B&quot;+Var.rowNum " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="source" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="firstName" type="id_String" nullable="true"/>
