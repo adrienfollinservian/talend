@@ -286,11 +286,11 @@
     <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/adrienfollin/Desktop/test.xlsx&quot;"/>
     <elementParameter field="CLOSED_LIST" name="SPREADSHEET_TYPE" value="XLS" show="false"/>
     <elementParameter field="LABEL" name="CONFIGTEXT" value="The memory saving mode currently applies only to the writing of large files, not to the reading!"/>
-    <elementParameter field="CHECK" name="CREATE_STREAMING_WORKBOOK" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_STREAMING_WORKBOOK" value="false"/>
     <elementParameter field="CHECK" name="DIE_IF_FILE_NOT_EXISTS" value="true"/>
-    <elementParameter field="CHECK" name="DECRYPT_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DECRYPT_FILE" value="false"/>
     <elementParameter field="TEXT" name="PASSWORD" value="&quot;secret&quot;" show="false"/>
-    <elementParameter field="CHECK" name="REGISTER_BACKPORT_FUNCTIONS" value="true"/>
+    <elementParameter field="CHECK" name="REGISTER_BACKPORT_FUNCTIONS" value="false"/>
     <elementParameter field="TABLE" name="FUNCTION_ADDONS"/>
     <elementParameter field="CHECK" name="USE_DEFAULT_XML_PARSER" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
