@@ -267,6 +267,19 @@
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
   </node>
+  <node componentName="tFileExcelWorkbookSave" componentVersion="6.11" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookSave_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="WORKBOOK" value=""/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/adrienfollin/Desktop/test.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="CREATE_DIRS" value="true"/>
+    <elementParameter field="TABLE" name="TEMPLATE_SHEETS"/>
+    <elementParameter field="CHECK" name="EVALUATE_ALL_FORMULAS" value="true"/>
+    <elementParameter field="CHECK" name="ENCRYPT_FILE" value="false"/>
+    <elementParameter field="TEXT" name="PASSWORD" value="&quot;secret&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OPTIMZE_HSSF_WB_STYLES" value="false"/>
+    <elementParameter field="CHECK" name="OPTIMZE_HSSF_WB_FONTS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="source" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="source" show="false"/>
@@ -293,6 +306,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="outputExcel" show="false"/>
   </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputExcel_1" target="tFileExcelWorkbookSave_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
@@ -300,6 +316,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="E_001_ExportConsole_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookSave_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
