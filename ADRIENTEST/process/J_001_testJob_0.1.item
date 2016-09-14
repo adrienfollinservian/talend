@@ -267,9 +267,9 @@
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
   </node>
-  <node componentName="tFileExcelWorkbookSave" componentVersion="6.11" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224">
+  <node componentName="tFileExcelWorkbookSave" componentVersion="6.11" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookSave_1" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="WORKBOOK" value=""/>
+    <elementParameter field="COMPONENT_LIST" name="WORKBOOK" value="tFileExcelWorkbookOpen_1"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/adrienfollin/Desktop/test.xlsx&quot;"/>
     <elementParameter field="CHECK" name="CREATE_DIRS" value="true"/>
     <elementParameter field="TABLE" name="TEMPLATE_SHEETS"/>
@@ -278,6 +278,21 @@
     <elementParameter field="TEXT" name="PASSWORD" value="&quot;secret&quot;" show="false"/>
     <elementParameter field="CHECK" name="OPTIMZE_HSSF_WB_STYLES" value="false"/>
     <elementParameter field="CHECK" name="OPTIMZE_HSSF_WB_FONTS" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileExcelWorkbookOpen" componentVersion="7.2" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookOpen_1" show="false"/>
+    <elementParameter field="CHECK" name="CREATE_EMPTY_WORKBOOK" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/adrienfollin/Desktop/test.xlsx&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SPREADSHEET_TYPE" value="XLS" show="false"/>
+    <elementParameter field="LABEL" name="CONFIGTEXT" value="The memory saving mode currently applies only to the writing of large files, not to the reading!"/>
+    <elementParameter field="CHECK" name="CREATE_STREAMING_WORKBOOK" value="false"/>
+    <elementParameter field="CHECK" name="DIE_IF_FILE_NOT_EXISTS" value="true"/>
+    <elementParameter field="CHECK" name="DECRYPT_FILE" value="false"/>
+    <elementParameter field="TEXT" name="PASSWORD" value="&quot;secret&quot;" show="false"/>
+    <elementParameter field="CHECK" name="REGISTER_BACKPORT_FUNCTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FUNCTION_ADDONS"/>
+    <elementParameter field="CHECK" name="USE_DEFAULT_XML_PARSER" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <connection connectorName="FLOW" label="source" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
@@ -306,8 +321,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="outputExcel" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputExcel_1" target="tFileExcelWorkbookSave_1">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputExcel_1" target="tFileExcelWorkbookOpen_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileExcelWorkbookOpen_1" offsetLabelX="0" offsetLabelY="0" source="tFileExcelWorkbookOpen_1" target="tFileExcelWorkbookSave_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
@@ -321,6 +339,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookSave_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExcelWorkbookOpen_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
