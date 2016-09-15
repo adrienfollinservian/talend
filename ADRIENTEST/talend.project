@@ -245,6 +245,8 @@
       <relatedItems xmi:id="_3yYYsXlxEea6bKgdg__sxQ" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_3yYYsnlxEea6bKgdg__sxQ" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_3yYYs3lxEea6bKgdg__sxQ" id="_yb4nUXlsEea6bKgdg__sxQ - AusTender___All_CNs_upto_31Dec2015" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_-hFV4HrdEeaVz_MojUmN0g" id="_ooT0YHowEeakmeK36r9pGg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_-hFV4XrdEeaVz_MojUmN0g" id="_ooT0YHowEeakmeK36r9pGg - AusTender___All_CNs_upto_31Dec2015" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_zYfjEHl4EeaP87z9NF-ojQ">
       <baseItem xmi:id="_zYfjEXl4EeaP87z9NF-ojQ" id="_YORNcHl4EeaP87z9NF-ojQ" version="0.1" type="job"/>
