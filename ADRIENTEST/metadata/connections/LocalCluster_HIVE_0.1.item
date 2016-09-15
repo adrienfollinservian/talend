@@ -5,7 +5,7 @@
   <parameters xmi:id="_S4_GcnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
   <parameters xmi:id="_S4_Gc3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://192.168.66.67:8020"/>
   <parameters xmi:id="_S4_GdHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_USERNAME" value="maria_dev"/>
-  <parameters xmi:id="_S4_GdXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_Efa_4HlaEea6bKgdg__sxQ"/>
+  <parameters xmi:id="_S4_GdXlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
   <parameters xmi:id="_S4_GdnlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_S4_Gd3laEea6bKgdg__sxQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
   <parameters xmi:id="_S4_GeHlaEea6bKgdg__sxQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="192.168.66.67:8050"/>

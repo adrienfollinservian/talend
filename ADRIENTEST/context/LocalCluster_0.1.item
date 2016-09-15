@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Sn1sEHlaEea6bKgdg__sxQ" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_Sn2TIHlaEea6bKgdg__sxQ" comment="" name="LocalCluster_NameNodeUri" prompt="LocalCluster_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://192.168.66.67:8020"/>
-  <contextParameter xmi:id="_Sn2TIXlaEea6bKgdg__sxQ" comment="" name="LocalCluster_JobHistory" prompt="LocalCluster_JobHistory?" promptNeeded="false" type="id_String" value="192.168.66.67:10020"/>
-  <contextParameter xmi:id="_Sn2TInlaEea6bKgdg__sxQ" comment="" name="LocalCluster_StagingDirectory" prompt="LocalCluster_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
-  <contextParameter xmi:id="_Sn2TI3laEea6bKgdg__sxQ" comment="" name="LocalCluster_ResourceManagerScheduler" prompt="LocalCluster_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="192.168.66.67:8030"/>
-  <contextParameter xmi:id="_Sn2TJHlaEea6bKgdg__sxQ" comment="" name="LocalCluster_User" prompt="LocalCluster_User?" promptNeeded="false" type="id_String" value="maria_dev"/>
-  <contextParameter xmi:id="_Sn2TJXlaEea6bKgdg__sxQ" comment="" name="LocalCluster_ResourceManager" prompt="LocalCluster_ResourceManager?" promptNeeded="false" type="id_String" value="192.168.66.67:8050"/>
-</talendfile:ContextType>
