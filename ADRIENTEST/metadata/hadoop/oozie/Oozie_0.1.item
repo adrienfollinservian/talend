@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendOOZIE:OozieConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendOOZIE="http://www.talend.org/oozie" xmi:id="_HaB9YHurEeaWX4PCawpjJA" name="Oozie" label="Oozie" relativeHadoopClusterId="__dqZcHsKEea4wpXyX9xTuQ" userName="mapr" oozieEndPoind="http://maprdemo:11000/oozie"/>
