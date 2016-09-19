@@ -51,5 +51,115 @@
       <additionalProperties xmi:id="_bIOcLXsLEea4wpXyX9xTuQ" key="HDFS_PATH" value="/user/mapr/AusTender - All CNs upto 31Dec2015.csv"/>
       <additionalProperties xmi:id="_bIOcLnsLEea4wpXyX9xTuQ" key="HDFS_FILE_TYPE" value="TEXT"/>
     </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_OJ6KMH4mEeaukdBT9ZfCwA" name="AusTender" id="_NfukwH4mEeaukdBT9ZfCwA" label="AusTender">
+      <taggedValue xmi:id="_OJ6KMX4mEeaukdBT9ZfCwA" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUYH4mEeaukdBT9ZfCwA" name="Agency_Name" label="Agency_Name" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUYX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUYn4mEeaukdBT9ZfCwA" name="Parent_Contract_ID" label="Parent_Contract_ID" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUY34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUZH4mEeaukdBT9ZfCwA" name="Contract_ID" label="Contract_ID" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUZX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUZn4mEeaukdBT9ZfCwA" name="Publish_Date" label="Publish_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUZ34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUaH4mEeaukdBT9ZfCwA" name="AmendmentDate" label="AmendmentDate" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUaX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUan4mEeaukdBT9ZfCwA" name="Start_Date" label="Start_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUa34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUbH4mEeaukdBT9ZfCwA" name="End_Date" label="End_Date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUbX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUbn4mEeaukdBT9ZfCwA" name="Value" label="Value" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUb34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUcH4mEeaukdBT9ZfCwA" name="Description" label="Description" length="116" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUcX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUcn4mEeaukdBT9ZfCwA" name="Agency_Ref_ID" label="Agency_Ref_ID" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUc34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUdH4mEeaukdBT9ZfCwA" name="UNSPSC_Code" label="UNSPSC_Code" length="55" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUdX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUdn4mEeaukdBT9ZfCwA" name="Title" label="Title" length="75" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUd34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUeH4mEeaukdBT9ZfCwA" name="Procurement_Method" label="Procurement_Method" length="65" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUeX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUen4mEeaukdBT9ZfCwA" name="TenderNumber" label="TenderNumber" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUe34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUfH4mEeaukdBT9ZfCwA" name="SON_ID" label="SON_ID" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUfX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUfn4mEeaukdBT9ZfCwA" name="Confidentiality_Contract_Flag" label="Confidentiality_Contract_Flag" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUf34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUgH4mEeaukdBT9ZfCwA" name="Confidentiality_Contract_Reason" label="Confidentiality_Contract_Reason" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUgX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUgn4mEeaukdBT9ZfCwA" name="Confidentiality_Outputs_Flag" label="Confidentiality_Outputs_Flag" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUg34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUhH4mEeaukdBT9ZfCwA" name="Confidentiality_Outputs_Reason" label="Confidentiality_Outputs_Reason" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUhX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUhn4mEeaukdBT9ZfCwA" name="Consultancy_Flag" label="Consultancy_Flag" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUh34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUiH4mEeaukdBT9ZfCwA" name="Consultancy_Reason" label="Consultancy_Reason" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUiX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUin4mEeaukdBT9ZfCwA" name="Amendment_Reason" label="Amendment_Reason" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUi34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUjH4mEeaukdBT9ZfCwA" name="Supplier_Name" label="Supplier_Name" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUjX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUjn4mEeaukdBT9ZfCwA" name="SupplierAddress" label="SupplierAddress" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUj34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUkH4mEeaukdBT9ZfCwA" name="SupplierSuburb" label="SupplierSuburb" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUkX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUkn4mEeaukdBT9ZfCwA" name="Supplier_Postcode" label="Supplier_Postcode" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUk34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUlH4mEeaukdBT9ZfCwA" name="Supplier_Country" label="Supplier_Country" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUlX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUln4mEeaukdBT9ZfCwA" name="Supplier_ABN_Exempt" label="Supplier_ABN_Exempt" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUl34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUmH4mEeaukdBT9ZfCwA" name="ABN" label="ABN" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUmX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUmn4mEeaukdBT9ZfCwA" name="Contact_Name" label="Contact_Name" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUm34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUnH4mEeaukdBT9ZfCwA" name="Contact_Phone" label="Contact_Phone" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUnX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUnn4mEeaukdBT9ZfCwA" name="Branch" label="Branch" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUn34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUoH4mEeaukdBT9ZfCwA" name="Division" label="Division" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUoX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUon4mEeaukdBT9ZfCwA" name="Office_Postcode" label="Office_Postcode" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUo34mEeaukdBT9ZfCwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZOtUpH4mEeaukdBT9ZfCwA" name="lastUpdated" label="lastUpdated" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ZOtUpX4mEeaukdBT9ZfCwA"/>
+      </feature>
+      <additionalProperties xmi:id="_OJ6KV34mEeaukdBT9ZfCwA" key="HDFS_PATH" value="/user/mapr/AusTender.csv"/>
+      <additionalProperties xmi:id="_OJ6KWH4mEeaukdBT9ZfCwA" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
 </xmi:XMI>
